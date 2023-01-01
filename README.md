@@ -12,7 +12,7 @@ ssh -i EC2Tutorial.pem ec2-user@<Public IPv4 address>
 ```
 aws --version
 ```
-- check list of users
+- check list of users (need to assign IAM role first)
 ```
 aws iam list-users
 ```
