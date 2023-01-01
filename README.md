@@ -1,2 +1,9 @@
 # aws-dev-code
 All the relevant codes from udemy course to be used for the AWS Developer Associate Certified certification
+
+## SSH
+1. cd into folder containing key pair (e.g. EC2Tutorial.pem)
+```
+chmod 0400 EC2Tutorial.pem
+ssh -i EC2Tutorial.pem ec2-user@<Public IPv4 address>
+```
