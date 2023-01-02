@@ -1,5 +1,5 @@
 # aws-dev-code
-All the relevant codes from udemy course to be used for the AWS Developer Associate Certified certification
+All the relevant codes from [Udemy course](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/) to be used for the [AWS Developer Associate Certified certification](https://aws.amazon.com/certification/certified-developer-associate/).
 
 ## SSH Mac/Linux CLI
 - cd into local folder containing key pair (e.g. EC2Tutorial.pem)
