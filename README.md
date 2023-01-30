@@ -5,7 +5,7 @@ All the relevant codes from [Udemy course](https://www.udemy.com/course/aws-cert
 - cd into local folder containing key pair (e.g. EC2Tutorial.pem)
 ```
 chmod 0400 EC2Tutorial.pem
-ssh -i EC2Tutorial.pem ec2-user@<Public IPv4 address>
+ssh -i EC2Tutorial.pem ec2-user@<Public IPv4 address of your instance>
 ```
 
 - check version of AWS
