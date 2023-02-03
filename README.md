@@ -60,3 +60,31 @@ aws iam list-users
     ```
     curl http://169.254.169.254/latest/meta-data/
     ```
+
+  ### Manage mutiple AWS accounts i.e. create a new profile
+
+  - Go to AWS directory and view profiles/accounts available
+
+  ```
+  cd ~/.aws
+  ll
+  cat credentials
+  ```
+
+  - configure/re-configure my default profile
+
+  ```
+  aws configure
+  ```
+
+  - configure a new profile/account
+
+  ```
+  aws configure --profile <name of profile>
+  ```
+
+  - to switch to new profile, otherwise, default profile is used
+
+  ```
+  aws <service> <action> --profile <name of the profile>
+  ```
