@@ -88,3 +88,17 @@ aws iam list-users
   ```
   aws <service> <action> --profile <name of the profile>
   ```
+
+## HTTPS Mac/Linux CLI on AWS CodeCommit
+
+within the AWS CodeCommit console:
+
+- create a repository
+- upload an index.html file
+- go to IAM > Users > "IAM User" > Security Credentials > under "HTTPS Git credentials for AWS CodeCommit", generate credentials
+- back to AWS CodeCommit, go to your repository and click on "Clone URL" and select "Clone HTTPS"
+- within your local CLI, do the following:
+
+```
+git clone <copied clone HTTPS URL>
+```
