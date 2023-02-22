@@ -1,6 +1,6 @@
 # AWS Certified Developer Associate Codes
 
-All the relevant codes from [Udemy course](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/) to be used for the [AWS Developer Associate Certified certification](https://aws.amazon.com/certification/certified-developer-associate/).
+Preparation for the [AWS Developer Associate Certified certification](https://aws.amazon.com/certification/certified-developer-associate/).
 
 ## SSH Mac/Linux CLI
 
